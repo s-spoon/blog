@@ -1,0 +1,22 @@
+{
+  "responsive": [
+    {
+      "id": 1,
+      "imageUrl": "https://softnix.co/wp-content/uploads/2024/03/build-brands-that-last-longer-100x50.jpg",
+      "title": "First Slide",
+      "text": "Description of first slide"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://softnix.co/wp-content/uploads/2024/03/top-notch-services-100x50.jpg",
+      "title": "Second Slide",
+      "text": "Description of second slide"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://softnix.co/wp-content/uploads/2024/03/best-digital-marketing-services-100x50.jpg",
+      "title": "Third Slide",
+      "text": "Description of third slide"
+    }
+  ]
+}

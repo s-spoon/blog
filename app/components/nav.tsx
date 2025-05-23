@@ -1,41 +1,158 @@
+"use client";
+
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const navItems = {
-  "/": {
-    name: "home",
-  },
-  "/blog": {
-    name: "blog",
-  },
-  "https://vercel.com/templates/next.js/portfolio-starter-kit": {
-    name: "deploy",
-  },
+  Services: [
+    {
+      title: "Website Development",
+      links: [
+        "Shopify Development",
+        "Magento Development",
+        "WordPress Development",
+        "Custom Web Development",
+        "WooCommerce Development",
+        "SaaS Development",
+      ],
+    },
+    {
+      title: "App Development",
+      links: [
+        "iOS Development",
+        "Android Development",
+        "Wearable App Development",
+      ],
+    },
+    {
+      title: "DevOps Solutions",
+      links: [
+        "DevOps Containerization",
+        "DevSecOps",
+        "DevOps CI/CD",
+        "DevOps Automation",
+        "DevOps Implementation",
+      ],
+    },
+    {
+      title: "Digital Marketing",
+      links: [
+        "Pay Per Click",
+        "Content Writing",
+        "Email Marketing",
+        "Social Media Marketing",
+        "Search Engine Optimization",
+      ],
+    },
+    {
+      title: "UI & UX Design",
+      links: ["App Design", "Web Design"],
+    },
+    {
+      title: "Branding Design",
+      links: [
+        "Brand Guide",
+        "Logo Design",
+        "Stationery Design",
+        "Business Card Design",
+      ],
+    },
+  ],
+  Industries: ["Healthcare", "Finance", "E-commerce", "Education"], // example items
+  Company: ["About Us", "Careers", "Team", "Blog"],
+};
+
+const Dropdown = ({ label, items }: { label: string; items: any }) => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
+      <button className="font-semibold px-4 py-2 hover:text-red-600 cursor-pointer">
+        {label}
+      </button>
+      {open && (
+        <div className="absolute bg-white border-t border-red-500 z-50 px-[75px] grid grid-cols-4 gap-4">
+          {Array.isArray(items) && typeof items[0] === "string"
+            ? // Flat array of strings (e.g., ["About Us", "Careers"])
+              items.map((item: string, idx: number) => (
+                <Link
+                  key={idx}
+                  href="#"
+                  className="hover:text-red-600 block cursor-pointer"
+                >
+                  {item}
+                </Link>
+              ))
+            : // Array of objects with { title, links }
+              items.map(
+                (section: { title: string; links: string[] }, idx: number) => (
+                  <div key={idx} className="cursor-pointer">
+                    <p className="font-bold mb-2">{section.title}</p>
+                    {section.links.map((link, i) => (
+                      <Link
+                        key={i}
+                        href="#"
+                        className="hover:text-red-600 block"
+                      >
+                        {link}
+                      </Link>
+                    ))}
+                  </div>
+                )
+              )}
+        </div>
+      )}
+    </div>
+  );
 };
 
 export function Navbar() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="lg:sticky lg:top-20">
-        <nav
-          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
-          id="nav"
-        >
-          <div className="flex flex-row space-x-0 pr-10">
-            {Object.entries(navItems).map(([path, { name }]) => {
-              return (
-                <Link
-                  key={path}
-                  href={path}
-                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
-                >
-                  {name}
-                </Link>
-              );
-            })}
-          </div>
+    <header>
+      <div className="flex flex-row w-full h-20 max-w-[90%] mx-auto items-center justify-between">
+        <div className="mx-0 my-4">
+          <Link href="https://softnix.co">
+            <Image
+              src="/imgs/softnix-logo.png"
+              alt="Softnix Logo"
+              width={170}
+              height={0}
+            />
+          </Link>
+        </div>
+        <nav className="flex flex-grow">
+          <Dropdown label="Services" items={navItems.Services} />
+          <Dropdown label="Industries" items={navItems.Industries} />
+          <Dropdown label="Company" items={navItems.Company} />
+          <Link
+            href="#"
+            className="text-sm font-semibold px-4 py-2 hover:text-red-600"
+          >
+            Case Studies
+          </Link>
+          <Link
+            href="#"
+            className="text-sm font-semibold px-4 py-2 hover:text-red-600"
+          >
+            Contact Us
+          </Link>
         </nav>
+
+        <div className="flex items-center text-sm">
+          <svg
+            className="w-5 h-5 mr-2 text-gray-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+          </svg>
+          <span className="text-gray-700">Have any questions?</span>
+          <span className="text-red-600 font-bold ml-2">(855) 950-1995</span>
+        </div>
       </div>
-    </aside>
+    </header>
   );
 }
