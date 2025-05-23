@@ -5,18 +5,10 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { Navbar } from "./components/nav";
-import { ResponsiveCarousel } from "./components/CarouselNav";
-import { OurCompany } from "./components/OurCompany";
-import { OurServices } from "./components/OurServices";
-import { Industries } from "./components/Industries";
-import { DiscoverNow } from "./components/DiscoverNow";
-import { FromOurBlog } from "./components/FromOurBlog";
-import FAQAccordion from "./components/FAQAccordion";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
-import questions from "../public/FaqQA.json";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -73,14 +65,7 @@ export default function RootLayout({
         </Head>
         <main>
           <Navbar />
-          <ResponsiveCarousel />
-          <OurCompany />
-          <OurServices />
-          <Industries />
-          <DiscoverNow />
-          <FromOurBlog />
-          <FAQAccordion questions={questions} />
-          {/* {children} */}
+          {children}
           <Footer />
           <Analytics />
           <SpeedInsights />

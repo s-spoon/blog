@@ -92,7 +92,9 @@ const Dropdown = ({ label, items }: { label: string; items: any }) => {
                     {section.links.map((link, i) => (
                       <Link
                         key={i}
-                        href="#"
+                        href={`/services/${link
+                          .toLowerCase()
+                          .replace(/\s+/g, "-")}`}
                         className="hover:text-red-600 block"
                       >
                         {link}
@@ -112,7 +114,7 @@ export function Navbar() {
     <header>
       <div className="flex flex-row w-full h-20 max-w-[90%] mx-auto items-center justify-between">
         <div className="mx-0 my-4">
-          <Link href="https://softnix.co">
+          <Link href="/">
             <Image
               src="/imgs/softnix-logo.png"
               alt="Softnix Logo"
