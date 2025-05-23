@@ -258,11 +258,8 @@ export function DiscoverNow() {
                 >
                   <div className="opacity-100 block relative w-full">
                     <div className="h-[162.109px]">
-                      <div
-                        className="flex w-[4842px] left-0 transition duration-[200ms] transform"
-                        style={{ transform: "translate3d(-1076px, 0px, 0px)" }}
-                      >
-                        <div className="w-[274px] opacity-0 invisible">
+                      <div className="flex">
+                        <div className="w-[25px] opacity-0 invisible">
                           <div>
                             <a
                               className="block"
@@ -282,7 +279,7 @@ export function DiscoverNow() {
                             </a>
                           </div>
                         </div>
-                        <div className="w-[274px] opacity-0 invisible">
+                        <div className="w-[25px] opacity-0 invisible">
                           <div>
                             <a
                               className="block"
@@ -302,7 +299,7 @@ export function DiscoverNow() {
                             </a>
                           </div>
                         </div>
-                        <div className="w-[274px] opacity-0 invisible">
+                        <div className="w-[25px] opacity-0 invisible">
                           <div>
                             <a
                               className="block"
@@ -322,7 +319,7 @@ export function DiscoverNow() {
                             </a>
                           </div>
                         </div>
-                        <div className="w-[294px] opacity-0 invisible">
+                        <div className="w-[25px] opacity-0 invisible">
                           <div>
                             <a
                               className="block"
@@ -342,7 +339,7 @@ export function DiscoverNow() {
                             </a>
                           </div>
                         </div>
-                        <div className="w-[269px] opacity-100 visible">
+                        <div className="w-[274px] opacity-100 visible">
                           <div>
                             <a
                               className="block"
@@ -362,7 +359,7 @@ export function DiscoverNow() {
                             </a>
                           </div>
                         </div>
-                        <div className="w-[269px] opacity-100 visible">
+                        <div className="w-[274px] opacity-100 visible">
                           <div>
                             <a
                               className="block"
@@ -382,7 +379,7 @@ export function DiscoverNow() {
                             </a>
                           </div>
                         </div>
-                        <div className="w-[269px] opacity-100 visible">
+                        <div className="w-[274px] opacity-100 visible">
                           <div>
                             <a
                               className="block"
@@ -402,7 +399,7 @@ export function DiscoverNow() {
                             </a>
                           </div>
                         </div>
-                        <div className="w-[269px] opacity-100 visible">
+                        <div className="w-[274px] opacity-100 visible">
                           <div>
                             <a
                               className="block"
@@ -422,7 +419,7 @@ export function DiscoverNow() {
                             </a>
                           </div>
                         </div>
-                        <div className="w-[269px] opacity-100 visible">
+                        <div className="w-[274px] opacity-100 visible">
                           <div>
                             <a
                               className="block"

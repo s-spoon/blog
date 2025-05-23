@@ -1,5 +1,6 @@
 import Head from "next/head";
 import "./global.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
@@ -79,7 +80,7 @@ export default function RootLayout({
           <DiscoverNow />
           <FromOurBlog />
           <FAQAccordion questions={questions} />
-          {children}
+          {/* {children} */}
           <Footer />
           <Analytics />
           <SpeedInsights />
