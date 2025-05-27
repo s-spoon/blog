@@ -1,23 +1,21 @@
 export function OurServices() {
   return (
     <section className="pt-20 pb-[40px]">
-      <div>
-        <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto">
-          <div className="m-auto">
-            <div className="box-border px-[15px] w-full">
-              <div>
-                <h6 className="text-[10px] text-[#627792] text-center font-semibold tracking-[4px] uppercase">
-                  Our Services
-                </h6>
-                <div className="h-[6px]">
-                  <span></span>
-                </div>
-                <h2 className="text-center font-medium text-[#001528] text-[2.25rem] leading-[1.2em] font-semibold">
-                  Development Services That Drive Success
-                </h2>
-                <div className="h-[60px]">
-                  <span></span>
-                </div>
+      <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto">
+        <div className="m-auto">
+          <div className="box-border px-[15px] w-full">
+            <div>
+              <h6 className="text-[10px] text-[#627792] text-center font-semibold tracking-[4px] uppercase">
+                Our Services
+              </h6>
+              <div className="h-[6px]">
+                <span></span>
+              </div>
+              <h2 className="text-center font-medium text-[#001528] text-[2.25rem] leading-[1.2em] font-semibold">
+                Development Services That Drive Success
+              </h2>
+              <div className="h-[60px]">
+                <span></span>
               </div>
             </div>
           </div>
@@ -241,171 +239,167 @@ export function OurServices() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto justify-center">
-          <div>
-            <div className="box-border px-[15px] w-full">
+      <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto justify-center">
+        <div>
+          <div className="box-border px-[15px] w-full">
+            <div>
+              <div className="h-[30px]">
+                <span></span>
+              </div>
               <div>
-                <div className="h-[30px]">
-                  <span></span>
-                </div>
                 <div>
-                  <div>
-                    <p className="text-center text-[15px] text-[#001528]">
-                      Customized Development Solutions for your Business –{" "}
-                      <a
-                        className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-                        href="https://softnix.co/services"
-                      >
-                        <span className="text-[#032b5f] font-semibold">
-                          View All Services
-                        </span>
-                      </a>
-                    </p>
-                  </div>
+                  <p className="text-center text-[15px] text-[#001528]">
+                    Customized Development Solutions for your Business –{" "}
+                    <a
+                      className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
+                      href="https://softnix.co/services"
+                    >
+                      <span className="text-[#032b5f] font-semibold">
+                        View All Services
+                      </span>
+                    </a>
+                  </p>
                 </div>
-                <div className="h-[60px]">
-                  <span></span>
-                </div>
-                <div className="h-[40px]">
-                  <span></span>
-                </div>
+              </div>
+              <div className="h-[60px]">
+                <span></span>
+              </div>
+              <div className="h-[40px]">
+                <span></span>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div>
-        <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto justify-center">
-          <div className="px-[17.5px] py-0 w-1/6">
+      <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto justify-center">
+        <div className="px-[17.5px] py-0 w-1/6">
+          <div>
             <div>
               <div>
-                <div>
-                  <figure>
-                    <div className="inline-block align-top max-w-full">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="246"
-                        height="92"
-                        src="https://softnix.co/wp-content/uploads/2024/03/FusionHardwares-Gray-Logo.png"
-                        className="h-auto max-w-full align-top"
-                        alt=""
-                        title="FusionHardwares-Gray-Logo"
-                      />
-                    </div>
-                  </figure>
-                </div>
+                <figure>
+                  <div className="inline-block align-top max-w-full">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      width="246"
+                      height="92"
+                      src="https://softnix.co/wp-content/uploads/2024/03/FusionHardwares-Gray-Logo.png"
+                      className="h-auto max-w-full align-top"
+                      alt=""
+                      title="FusionHardwares-Gray-Logo"
+                    />
+                  </div>
+                </figure>
               </div>
             </div>
           </div>
-          <div className="px-[17.5px] py-0 w-1/6">
+        </div>
+        <div className="px-[17.5px] py-0 w-1/6">
+          <div>
             <div>
               <div>
-                <div>
-                  <figure>
-                    <div className="inline-block align-top max-w-full">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="246"
-                        height="92"
-                        src="https://softnix.co/wp-content/uploads/2024/03/DealsOnCases-Gray-Logo.png"
-                        className="h-auto max-w-full align-top"
-                        alt=""
-                        title="DealsOnCases-Gray-Logo"
-                      />
-                    </div>
-                  </figure>
-                </div>
+                <figure>
+                  <div className="inline-block align-top max-w-full">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      width="246"
+                      height="92"
+                      src="https://softnix.co/wp-content/uploads/2024/03/DealsOnCases-Gray-Logo.png"
+                      className="h-auto max-w-full align-top"
+                      alt=""
+                      title="DealsOnCases-Gray-Logo"
+                    />
+                  </div>
+                </figure>
               </div>
             </div>
           </div>
-          <div className="px-[17.5px] py-0 w-1/6">
+        </div>
+        <div className="px-[17.5px] py-0 w-1/6">
+          <div>
             <div>
               <div>
-                <div>
-                  <figure>
-                    <div className="inline-block align-top max-w-full">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="246"
-                        height="92"
-                        src="https://softnix.co/wp-content/uploads/2024/03/MarkhorDeals-Gray-Logo.png"
-                        className="h-auto max-w-full align-top"
-                        alt=""
-                        title="MarkhorDeals-Gray-Logo"
-                      />
-                    </div>
-                  </figure>
-                </div>
+                <figure>
+                  <div className="inline-block align-top max-w-full">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      width="246"
+                      height="92"
+                      src="https://softnix.co/wp-content/uploads/2024/03/MarkhorDeals-Gray-Logo.png"
+                      className="h-auto max-w-full align-top"
+                      alt=""
+                      title="MarkhorDeals-Gray-Logo"
+                    />
+                  </div>
+                </figure>
               </div>
             </div>
           </div>
-          <div className="px-[17.5px] py-0 w-1/6">
+        </div>
+        <div className="px-[17.5px] py-0 w-1/6">
+          <div>
             <div>
               <div>
-                <div>
-                  <figure>
-                    <div className="inline-block align-top max-w-full">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="246"
-                        height="92"
-                        src="https://softnix.co/wp-content/uploads/2024/03/TheAceGroup-Gray-Logo.png"
-                        className="h-auto max-w-full align-top"
-                        alt=""
-                        title="TheAceGroup-Gray-Logo"
-                      />
-                    </div>
-                  </figure>
-                </div>
+                <figure>
+                  <div className="inline-block align-top max-w-full">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      width="246"
+                      height="92"
+                      src="https://softnix.co/wp-content/uploads/2024/03/TheAceGroup-Gray-Logo.png"
+                      className="h-auto max-w-full align-top"
+                      alt=""
+                      title="TheAceGroup-Gray-Logo"
+                    />
+                  </div>
+                </figure>
               </div>
             </div>
           </div>
-          <div className="px-[17.5px] py-0 w-1/6">
+        </div>
+        <div className="px-[17.5px] py-0 w-1/6">
+          <div>
             <div>
               <div>
-                <div>
-                  <figure>
-                    <div className="inline-block align-top max-w-full">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="246"
-                        height="92"
-                        src="https://softnix.co/wp-content/uploads/2024/03/AtlastDollarDeals-Gray-Logo.png"
-                        className="h-auto max-w-full align-top"
-                        alt=""
-                        title="AtlastDollarDeals-Gray-Logo"
-                      />
-                    </div>
-                  </figure>
-                </div>
+                <figure>
+                  <div className="inline-block align-top max-w-full">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      width="246"
+                      height="92"
+                      src="https://softnix.co/wp-content/uploads/2024/03/AtlastDollarDeals-Gray-Logo.png"
+                      className="h-auto max-w-full align-top"
+                      alt=""
+                      title="AtlastDollarDeals-Gray-Logo"
+                    />
+                  </div>
+                </figure>
               </div>
             </div>
           </div>
-          <div className="px-[17.5px] py-0 w-1/6">
+        </div>
+        <div className="px-[17.5px] py-0 w-1/6">
+          <div>
             <div>
               <div>
-                <div>
-                  <figure>
-                    <div className="inline-block align-top max-w-full">
-                      <img
-                        loading="lazy"
-                        decoding="async"
-                        width="246"
-                        height="92"
-                        src="https://softnix.co/wp-content/uploads/2024/03/HTownWireless-Gray-Logo.png"
-                        className="h-auto max-w-full align-top"
-                        alt=""
-                        title="HTownWireless-Gray-Logo"
-                      />
-                    </div>
-                  </figure>
-                </div>
+                <figure>
+                  <div className="inline-block align-top max-w-full">
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      width="246"
+                      height="92"
+                      src="https://softnix.co/wp-content/uploads/2024/03/HTownWireless-Gray-Logo.png"
+                      className="h-auto max-w-full align-top"
+                      alt=""
+                      title="HTownWireless-Gray-Logo"
+                    />
+                  </div>
+                </figure>
               </div>
             </div>
           </div>

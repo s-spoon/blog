@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div>
+    <div id="site-footer">
       <div className="bg-[#001628] mt-12">
         <div className="flex my-0">
           <div className="bg-[url('/imgs/softnix-team.jpg')] bg-cover bg-no-repeat float-left px-[15px] w-1/2"></div>

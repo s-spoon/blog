@@ -197,32 +197,22 @@ export function OurCompany() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto justify-center">
+      <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto justify-center">
+        <div className="box-border px-[15px] w-full">
+          <div className="h-[10px]">
+            <span></span>
+          </div>
           <div>
-            <div className="box-border px-[15px] w-full">
-              <div>
-                <div className="h-[10px]">
-                  <span></span>
-                </div>
-                <div>
-                  <div>
-                    <p className="text-center text-[15px] text-[#001528]">
-                      Get Your App and Website Development Services from
-                      Industry Experts.{" "}
-                      <a
-                        className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-                        href="https://softnix.co/#site-footer"
-                      >
-                        <span className="text-[#032b5f] font-semibold">
-                          Hire us
-                        </span>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <p className="text-center text-[15px] text-[#001528]">
+              Get Your App and Website Development Services from Industry
+              Experts.{" "}
+              <a
+                className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
+                href="https://softnix.co/#site-footer"
+              >
+                <span className="text-[#032b5f] font-semibold">Hire us</span>
+              </a>
+            </p>
           </div>
         </div>
       </div>

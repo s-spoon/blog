@@ -81,6 +81,17 @@ export default function FAQAccordion({ questions }: FAQAccordionProps) {
           </div>
         ))}
       </div>
+      <div className="box-border px-[15px] w-full mt-8 mb-24">
+        <p className="text-center text-[15px] text-[#001528]">
+          Couldn't find your answer?{" "}
+          <a
+            className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
+            href="https://softnix.co/contact-us"
+          >
+            <span className="text-[#e6332c] font-semibold">Ask a question</span>
+          </a>
+        </p>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import serviceCTA from "../../../public/serviceCTA.json";
+import industryCTA from "../../../public/industryCTA.json";
 import { useState } from "react";
 import Image from "next/image";
 import { Work_Sans } from "next/font/google";
@@ -15,17 +15,17 @@ const workSans = Work_Sans({
   subsets: ["latin"],
 });
 
-export default function ServicePage() {
+export default function IndustryPage() {
   const params = useParams();
-  const service = params?.service as string;
+  const industry = params?.industry as string;
 
-  const serviceData = serviceCTA[service];
+  const industryData = industryCTA[industry];
 
-  const firstSection = serviceData["first-section"];
-  const overview = serviceData["overview"];
-  const services = serviceData["services"];
-  const process = serviceData["process"];
-  const questions = serviceData["faqs"];
+  const firstSection = industryData["first-section"];
+  const overview = industryData["overview"];
+  const services = industryData["services"];
+  const process = industryData["process"];
+  const questions = industryData["faqs"];
 
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [answerHeights, setAnswerHeights] = useState<number[]>(
@@ -713,7 +713,7 @@ export default function ServicePage() {
             className="h-6 w-6"
           />
           <h1 className="text-3xl font-bold">
-            FAQs about {kebabToTitle(service)}
+            FAQs about {kebabToTitle(industry)}
           </h1>
         </div>
         {/* Questions */}

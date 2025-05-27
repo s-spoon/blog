@@ -59,8 +59,19 @@ const navItems = {
       ],
     },
   ],
-  Industries: ["Healthcare", "Finance", "E-commerce", "Education"], // example items
-  Company: ["About Us", "Careers", "Team", "Blog"],
+  Industries: [
+    "FinTech",
+    "Enterprises",
+    "Healthcare",
+    "E-Learning",
+    "Entertainment",
+  ], // example items
+  Company: [
+    "About",
+    "Press Release",
+    "Why Choose Us",
+    "Mission, Vision and Values",
+  ],
 };
 
 const Dropdown = ({ label, items }: { label: string; items: any }) => {
@@ -74,11 +85,13 @@ const Dropdown = ({ label, items }: { label: string; items: any }) => {
       {open && (
         <div className="absolute bg-white border-t border-red-500 z-50 px-[75px] grid grid-cols-4 gap-4">
           {Array.isArray(items) && typeof items[0] === "string"
-            ? // Flat array of strings (e.g., ["About Us", "Careers"])
+            ? // Flat array of strings (e.g., ["About", "Press Release"])
               items.map((item: string, idx: number) => (
                 <Link
                   key={idx}
-                  href="#"
+                  href={`/industries/${item
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]/gi, "")}`}
                   className="hover:text-red-600 block cursor-pointer"
                 >
                   {item}
@@ -128,14 +141,14 @@ export function Navbar() {
           <Dropdown label="Industries" items={navItems.Industries} />
           <Dropdown label="Company" items={navItems.Company} />
           <Link
-            href="#"
-            className="text-sm font-semibold px-4 py-2 hover:text-red-600"
+            href="/case-studies"
+            className="font-semibold px-4 py-2 hover:text-red-600"
           >
             Case Studies
           </Link>
           <Link
-            href="#"
-            className="text-sm font-semibold px-4 py-2 hover:text-red-600"
+            href="/contact-us"
+            className="font-semibold px-4 py-2 hover:text-red-600"
           >
             Contact Us
           </Link>
