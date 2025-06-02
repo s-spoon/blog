@@ -49,7 +49,7 @@ export default function FAQAccordion({ questions }: FAQAccordionProps) {
           className="h-6 w-6"
         />
         <h1 className="text-3xl font-bold">
-          FAQs about Softnix - Full-Stack Development Company
+          FAQs about our company - Full-Stack Development Company
         </h1>
       </div>
       {/* Questions */}
@@ -86,7 +86,7 @@ export default function FAQAccordion({ questions }: FAQAccordionProps) {
           Couldn't find your answer?{" "}
           <a
             className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-            href="https://softnix.co/contact-us"
+            href="#"
           >
             <span className="text-[#e6332c] font-semibold">Ask a question</span>
           </a>

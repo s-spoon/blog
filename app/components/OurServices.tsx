@@ -49,7 +49,7 @@ export function OurServices() {
                   <div className="mt-[30px]">
                     <a
                       className="overflow-visible bg-transparent h-auto leading-[1] p-[10px_18px_8px_0] border-none text-[#e6332c] font-semibold"
-                      href="https://softnix.co/services/website-development/"
+                      href="#"
                     >
                       Find Out More
                     </a>
@@ -84,7 +84,7 @@ export function OurServices() {
                   <div className="mt-[30px]">
                     <a
                       className="overflow-visible bg-transparent h-auto leading-[1] p-[10px_18px_8px_0] border-none text-[#e6332c] font-semibold"
-                      href="https://softnix.co/services/app-development/"
+                      href="#"
                     >
                       Find Out More
                     </a>
@@ -119,7 +119,7 @@ export function OurServices() {
                   <div className="mt-[30px]">
                     <a
                       className="overflow-visible bg-transparent h-auto leading-[1] p-[10px_18px_8px_0] border-none text-[#e6332c] font-semibold"
-                      href="https://softnix.co/services/saas-development/"
+                      href="#"
                     >
                       Find Out More
                     </a>
@@ -158,7 +158,7 @@ export function OurServices() {
                   <div className="mt-[30px]">
                     <a
                       className="overflow-visible bg-transparent h-auto leading-[1] p-[10px_18px_8px_0] border-none text-[#e6332c] font-semibold"
-                      href="https://softnix.co/services/digital-marketing/"
+                      href="#"
                     >
                       Find Out More
                     </a>
@@ -193,7 +193,7 @@ export function OurServices() {
                   <div className="mt-[30px]">
                     <a
                       className="overflow-visible bg-transparent h-auto leading-[1] p-[10px_18px_8px_0] border-none text-[#e6332c] font-semibold"
-                      href="https://softnix.co/services/ui-ux-design-services/"
+                      href="#"
                     >
                       Find Out More
                     </a>
@@ -228,7 +228,7 @@ export function OurServices() {
                   <div className="mt-[30px]">
                     <a
                       className="overflow-visible bg-transparent h-auto leading-[1] p-[10px_18px_8px_0] border-none text-[#e6332c] font-semibold"
-                      href="https://softnix.co/services/saas-development/"
+                      href="#"
                     >
                       Find Out More
                     </a>
@@ -252,7 +252,7 @@ export function OurServices() {
                     Customized Development Solutions for your Business –{" "}
                     <a
                       className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-                      href="https://softnix.co/services"
+                      href="#"
                     >
                       <span className="text-[#032b5f] font-semibold">
                         View All Services

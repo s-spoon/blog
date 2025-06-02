@@ -9,6 +9,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
+import LoadingBar from "./components/loading-bar";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -58,11 +59,12 @@ export default function RootLayout({
         <Head>
           <link
             rel="icon"
-            href="/imgs/softnix-icon.png"
+            href="/imgs/icon-logo.png"
             sizes="32x32"
             type="image/png"
           />
         </Head>
+        <LoadingBar />
         <main>
           <Navbar />
           {children}

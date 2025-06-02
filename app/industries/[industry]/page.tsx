@@ -51,7 +51,10 @@ export default function IndustryPage() {
 
   return (
     <div>
-      <section className="bg-[#e6332c] bg-[url('https://softnix.co/wp-content/uploads/2024/05/android-app-development-scaled.jpg?id=3212')] bg-center bg-no-repeat bg-cover [background-blend-mode:multiply]">
+      <section
+        className="bg-[#e6332c] bg-center bg-no-repeat bg-cover [background-blend-mode:multiply]"
+        style={{ backgroundImage: `url(${firstSection.img})` }}
+      >
         <div className="pt-[120px] pb-[100px]">
           <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto items-center justify-center">
             <div className="px-40">
@@ -67,7 +70,7 @@ export default function IndustryPage() {
                 </div>
                 <div className="text-center">
                   <a
-                    href="https://softnix.co/contact-us/"
+                    href="#"
                     className="leading-inherit p-[15px_50px_10px_10px] h-auto border-none bg-transparent text-white uppercase tracking-[1px] font-semibold"
                   >
                     {firstSection.three}
@@ -298,7 +301,7 @@ export default function IndustryPage() {
                 {services.footer}{" "}
                 <a
                   className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-                  href="https://softnix.co/#site-footer"
+                  href="#"
                 >
                   <span className="text-[#e6332c] font-semibold">Hire us</span>
                 </a>
@@ -410,7 +413,7 @@ export default function IndustryPage() {
         <div className="box-border px-[15px] w-full pb-16">
           <div>
             <p className="text-center text-[15px] text-[#e6332c]">
-              <a href="https://softnix.co/contact-us/">Let's Discuss </a>
+              <a href="#">Let's Discuss </a>
               <span className="text-white font-semibold">
                 Your Idea & Turn Your Idea into Reality!
               </span>
@@ -565,19 +568,13 @@ export default function IndustryPage() {
         <div className="flex w-[1398px] max-w-[calc(90%+30px)] m-auto relative justify-center">
           <div className="left-0 top-0 px-[15px] mb-[30px]">
             <div className="relative overflow-hidden flex flex-col-reverse bg-[#d93925] text-center px-[15%] justify-between rounded-[5px]">
-              <a
-                href="https://softnix.co/case-studies/time-maxx/"
-                className="absolute inset-0"
-              ></a>
+              <a href="#" className="absolute inset-0"></a>
               <figure className="relative z-[2] bg-white m-0 px-[20px] py-0 border-l-[5px] border-l-[#eee] rounded-t-[5px]">
                 <div className="text-[14px] text-left pt-[20px]">
-                  <a
-                    href="https://softnix.co/case-studies-category/website/"
-                    className="text-inherit"
-                  >
+                  <a href="#" className="text-inherit">
                     Website
                   </a>
-                  <a href="https://softnix.co/case-studies/time-maxx/">
+                  <a href="#">
                     <img
                       decoding="async"
                       src="https://softnix.co/wp-content/uploads/2024/08/Time-Maxx-Header-Image-800x450.jpg"
@@ -610,19 +607,13 @@ export default function IndustryPage() {
           </div>
           <div className="left-[33.3329%] top-0 px-[15px] mb-[30px]">
             <div className="relative overflow-hidden flex flex-col-reverse bg-[#f37421] text-center px-[15%] justify-between rounded-[5px]">
-              <a
-                href="https://softnix.co/case-studies/time-maxx/"
-                className="absolute inset-0"
-              ></a>
+              <a href="#" className="absolute inset-0"></a>
               <figure className="relative z-[2] bg-white m-0 px-[20px] py-0 border-l-[5px] border-l-[#eee] rounded-t-[5px]">
                 <div className="text-[14px] text-left pt-[20px]">
-                  <a
-                    href="https://softnix.co/case-studies-category/website/"
-                    className="text-inherit"
-                  >
+                  <a href="#" className="text-inherit">
                     Website
                   </a>
-                  <a href="https://softnix.co/case-studies/time-maxx/">
+                  <a href="#">
                     <img
                       decoding="async"
                       src="https://softnix.co/wp-content/uploads/2024/10/Pumps-Industrial-Equipment-800x450.jpg"
@@ -655,19 +646,13 @@ export default function IndustryPage() {
           </div>
           <div className="left-[66.6658%] top-0 px-[15px] mb-[30px]">
             <div className="relative overflow-hidden flex flex-col-reverse bg-[#001844] text-center px-[15%] justify-between rounded-[5px]">
-              <a
-                href="https://softnix.co/case-studies/time-maxx/"
-                className="absolute inset-0"
-              ></a>
+              <a href="#" className="absolute inset-0"></a>
               <figure className="relative z-[2] bg-white m-0 px-[20px] py-0 border-l-[5px] border-l-[#eee] rounded-t-[5px]">
                 <div className="text-[14px] text-left pt-[20px]">
-                  <a
-                    href="https://softnix.co/case-studies-category/website/"
-                    className="text-inherit"
-                  >
+                  <a href="#" className="text-inherit">
                     Website
                   </a>
-                  <a href="https://softnix.co/case-studies/time-maxx/">
+                  <a href="#">
                     <img
                       decoding="async"
                       src="https://softnix.co/wp-content/uploads/2018/08/k-75-chim-t-091548-800x450.jpg"
@@ -750,7 +735,7 @@ export default function IndustryPage() {
             Couldn't find your answer?{" "}
             <a
               className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-              href="https://softnix.co/contact-us"
+              href="#"
             >
               <span className="text-[#e6332c] font-semibold">
                 Ask a question

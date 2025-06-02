@@ -38,7 +38,7 @@ export function FromOurBlog() {
                       <div className="px-[15px] mb-[30px]">
                         <div className="bg-transparent p-0 h-full relative">
                           <a
-                            href="https://softnix.co/blog/best-time-to-invest-in-wearable-apps/"
+                            href="#"
                             className="text-inherit text-[15px] bg-[#f3f6f9] overflow-hidden block h-full relative rounded-[5px]"
                           >
                             <div className="relative overflow-hidden">
@@ -86,7 +86,7 @@ export function FromOurBlog() {
                       <div className="px-[15px] mb-[30px]">
                         <div className="bg-transparent p-0 h-full relative">
                           <a
-                            href="https://softnix.co/blog/best-time-to-invest-in-wearable-apps/"
+                            href="#"
                             className="text-inherit text-[15px] bg-[#f3f6f9] overflow-hidden block h-full relative rounded-[5px]"
                           >
                             <div className="relative overflow-hidden">
@@ -134,7 +134,7 @@ export function FromOurBlog() {
                       <div className="px-[15px] mb-[30px]">
                         <div className="bg-transparent p-0 h-full relative">
                           <a
-                            href="https://softnix.co/blog/best-time-to-invest-in-wearable-apps/"
+                            href="#"
                             className="text-inherit text-[15px] bg-[#f3f6f9] overflow-hidden block h-full relative rounded-[5px]"
                           >
                             <div className="relative overflow-hidden">

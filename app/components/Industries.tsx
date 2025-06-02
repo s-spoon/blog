@@ -25,9 +25,9 @@ export function Industries() {
                   <div>
                     <p>
                       <span className="text-[#9b9aad]">
-                        Softnix offers industry-compliant full-stack development
-                        services, following a streamlined development process
-                        tailored to your specific needs.{" "}
+                        Our company offers industry-compliant full-stack
+                        development services, following a streamlined
+                        development process tailored to your specific needs.{" "}
                       </span>
                       <span className="text-[#9b9aad]">
                         Our expertise in vertical services empowers businesses
@@ -75,7 +75,7 @@ export function Industries() {
                   <div className="order-4 m-0">
                     <a
                       className="z-[2] absolute inset-0 [text-indent:-9999px] p-0"
-                      href="https://softnix.co/industries/entertainment/"
+                      href="#"
                     >
                       Learn more
                     </a>
@@ -114,7 +114,7 @@ export function Industries() {
                   <div className="order-4 m-0">
                     <a
                       className="z-[2] absolute inset-0 [text-indent:-9999px] p-0"
-                      href="https://softnix.co/industries/enterprises/"
+                      href="#"
                     >
                       Learn more
                     </a>
@@ -153,7 +153,7 @@ export function Industries() {
                   <div className="order-4 m-0">
                     <a
                       className="z-[2] absolute inset-0 [text-indent:-9999px] p-0"
-                      href="https://softnix.co/industries/elearning/"
+                      href="#"
                     >
                       Learn more
                     </a>
@@ -192,7 +192,7 @@ export function Industries() {
                   <div className="order-4 m-0">
                     <a
                       className="z-[2] absolute inset-0 [text-indent:-9999px] p-0"
-                      href="https://softnix.co/industries/healthcare/"
+                      href="#"
                     >
                       Learn more
                     </a>
@@ -230,7 +230,7 @@ export function Industries() {
                   <div className="order-4 m-0">
                     <a
                       className="z-[2] absolute inset-0 [text-indent:-9999px] p-0"
-                      href="https://softnix.co/industries/fintech/"
+                      href="#"
                     >
                       Learn more
                     </a>
@@ -270,7 +270,7 @@ export function Industries() {
             <div className="box-border px-[15px] w-full">
               <div className="relative">
                 <figure>
-                  <a href="https://softnix.co/case-studies/time-maxx/">
+                  <a href="#">
                     <span className="bg-[#d93925] h-full absolute left-0 right-0 bottom-0 z-[2] [text-indent:-9999px] rounded">
                       #d93925{" "}
                     </span>
@@ -290,7 +290,7 @@ export function Industries() {
                 </figure>
 
                 <div className="absolute z-[4] left-1/2 top-1/2 text-center w-full px-[15%] translate-x-[-50%] translate-y-[-50%]">
-                  <a href="https://softnix.co/case-studies/time-maxx/">
+                  <a href="#">
                     <h2 className="m-0 text-[1.25rem] leading-[1.385em] text-white font-semibold">
                       Time Maxx Stores{" "}
                     </h2>
@@ -311,7 +311,7 @@ export function Industries() {
             <div className="box-border px-[15px] w-full">
               <div className="relative">
                 <figure>
-                  <a href="https://softnix.co/case-studies/herr-pump/">
+                  <a href="#">
                     <span className="bg-[#f37421] h-full absolute left-0 right-0 bottom-0 z-[2] [text-indent:-9999px] rounded">
                       #f37421{" "}
                     </span>
@@ -331,7 +331,7 @@ export function Industries() {
                 </figure>
 
                 <div className="absolute z-[4] left-1/2 top-1/2 text-center w-full px-[15%] translate-x-[-50%] translate-y-[-50%]">
-                  <a href="https://softnix.co/case-studies/herr-pump/">
+                  <a href="#">
                     <h2 className="m-0 text-[1.25rem] leading-[1.385em] text-white font-semibold">
                       Herr Pump{" "}
                     </h2>
@@ -352,7 +352,7 @@ export function Industries() {
             <div className="box-border px-[15px] w-full">
               <div className="relative">
                 <figure>
-                  <a href="https://softnix.co/case-studies/the-ace-group/">
+                  <a href="#">
                     <span className="bg-[#001844] h-full absolute left-0 right-0 bottom-0 z-[2] [text-indent:-9999px] rounded">
                       #001844{" "}
                     </span>
@@ -372,7 +372,7 @@ export function Industries() {
                 </figure>
 
                 <div className="absolute z-[4] left-1/2 top-1/2 text-center w-full px-[15%] translate-x-[-50%] translate-y-[-50%]">
-                  <a href="https://softnix.co/case-studies/the-ace-group/">
+                  <a href="#">
                     <h2 className="m-0 text-[1.25rem] leading-[1.385em] text-white font-semibold">
                       The Ace Group{" "}
                     </h2>
@@ -402,7 +402,7 @@ export function Industries() {
                 Find out how companies succeed with us.{" "}
                 <a
                   className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-                  href="https://softnix.co/#site-footer"
+                  href="#"
                 >
                   <span className="text-[#032b5f] font-semibold">
                     Read our case studies

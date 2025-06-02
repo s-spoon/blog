@@ -261,11 +261,7 @@ export function DiscoverNow() {
                       <div className="flex">
                         <div className="w-[25px] opacity-0 invisible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://www.techimply.com/profile/softnix"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -281,11 +277,7 @@ export function DiscoverNow() {
                         </div>
                         <div className="w-[25px] opacity-0 invisible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://www.techimply.com/profile/softnix"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -301,11 +293,7 @@ export function DiscoverNow() {
                         </div>
                         <div className="w-[25px] opacity-0 invisible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://www.techimply.com/profile/softnix"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -321,11 +309,7 @@ export function DiscoverNow() {
                         </div>
                         <div className="w-[25px] opacity-0 invisible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://www.techimply.com/profile/softnix"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -341,11 +325,7 @@ export function DiscoverNow() {
                         </div>
                         <div className="w-[274px] opacity-100 visible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://www.techimply.com/profile/softnix"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -361,11 +341,7 @@ export function DiscoverNow() {
                         </div>
                         <div className="w-[274px] opacity-100 visible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://softnix.co/lp/?utm_source=GoodFirms&amp;utm_medium=referral"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -381,11 +357,7 @@ export function DiscoverNow() {
                         </div>
                         <div className="w-[274px] opacity-100 visible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://softnix.co/lp/?utm_source=GoodFirms&amp;utm_medium=referral"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -401,11 +373,7 @@ export function DiscoverNow() {
                         </div>
                         <div className="w-[274px] opacity-100 visible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://superbcompanies.com/organizations/softnix/"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -421,11 +389,7 @@ export function DiscoverNow() {
                         </div>
                         <div className="w-[274px] opacity-100 visible">
                           <div>
-                            <a
-                              className="block"
-                              href="https://superbcompanies.com/organizations/softnix/"
-                              target="_blank"
-                            >
+                            <a className="block" href="#" target="_blank">
                               <img
                                 loading="lazy"
                                 decoding="async"
@@ -453,7 +417,7 @@ export function DiscoverNow() {
                       success for your business.{""}
                       <a
                         className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-                        href="https://softnix.co/contact-us/"
+                        href="#"
                       >
                         <span className="text-[#032b5f] font-semibold">
                           Discover now

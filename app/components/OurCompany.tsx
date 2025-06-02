@@ -13,7 +13,7 @@ export function OurCompany() {
                   <span></span>
                 </div>
                 <h2 className="text-4xl text-white text-left font-semibold">
-                  Softnix is your trusted development partner, ensuring
+                  Our company is your trusted development partner, ensuring
                   guaranteed digital success.
                 </h2>
                 <div className="h-[20px]">
@@ -61,7 +61,7 @@ export function OurCompany() {
                   <div className="relative">
                     <a
                       className="bg-white absolute block bottom-[-30px] left-1/2 p-5 text-center w-4/5 z-[2] shadow-[0_5px_35px_rgba(0,0,0,0.1)] translate-x-[-50%]"
-                      href="https://softnix.co/services/"
+                      href="#"
                       target="_self"
                     >
                       <h6 className="h-[24px] mt-[2px] text-[1rem] leading-[1.385em] text-[#e6332c] overflow-hidden font-semibold">
@@ -77,11 +77,7 @@ export function OurCompany() {
                       </div>
                     </a>
 
-                    <a
-                      className="block"
-                      href="https://softnix.co/services/"
-                      target="_self"
-                    >
+                    <a className="block" href="#" target="_self">
                       <img
                         decoding="async"
                         className="border-0 h-auto max-w-full align-top"
@@ -108,7 +104,7 @@ export function OurCompany() {
                   <div className="relative">
                     <a
                       className="bg-white absolute block bottom-[-30px] left-1/2 p-5 text-center w-4/5 z-[2] shadow-[0_5px_35px_rgba(0,0,0,0.1)] translate-x-[-50%]"
-                      href="https://softnix.co/why-choose-us/"
+                      href="#"
                       target="_self"
                     >
                       <h6 className="h-[24px] mt-[2px] text-[1rem] leading-[1.385em] text-[#e6332c] overflow-hidden font-semibold">
@@ -124,11 +120,7 @@ export function OurCompany() {
                       </div>
                     </a>
 
-                    <a
-                      className="block"
-                      href="https://softnix.co/why-choose-us/"
-                      target="_self"
-                    >
+                    <a className="block" href="#" target="_self">
                       <img
                         decoding="async"
                         className="border-0 h-auto max-w-full align-top"
@@ -155,7 +147,7 @@ export function OurCompany() {
                   <div className="relative">
                     <a
                       className="bg-white absolute block bottom-[-30px] left-1/2 p-5 text-center w-4/5 z-[2] shadow-[0_5px_35px_rgba(0,0,0,0.1)] translate-x-[-50%]"
-                      href="https://softnix.co/case-studies/"
+                      href="#"
                       target="_self"
                     >
                       <h6 className="h-[24px] mt-[2px] text-[1rem] leading-[1.385em] text-[#e6332c] overflow-hidden font-semibold">
@@ -171,11 +163,7 @@ export function OurCompany() {
                       </div>
                     </a>
 
-                    <a
-                      className="block"
-                      href="https://softnix.co/case-studies/"
-                      target="_self"
-                    >
+                    <a className="block" href="#" target="_self">
                       <img
                         decoding="async"
                         className="border-0 h-auto max-w-full align-top"
@@ -208,7 +196,7 @@ export function OurCompany() {
               Experts.{" "}
               <a
                 className="border-b-[1px] border-dotted border-b-[rgba(0,0,0,0.5)]"
-                href="https://softnix.co/#site-footer"
+                href="#"
               >
                 <span className="text-[#032b5f] font-semibold">Hire us</span>
               </a>
